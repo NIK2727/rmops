@@ -9,7 +9,7 @@ spec:
   description: My test
   envs: sample,rmops
   fanout: 25
-  function_uid: b8db7981-dd22-49f7-906e-f36653953140
+  function_uid: c17df37a-72a0-4670-ab8d-aa680589f661
   lang: python
   langversion: '3'
   memorysize: 262144000

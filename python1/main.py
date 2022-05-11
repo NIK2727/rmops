@@ -11,4 +11,4 @@ with open(f,'r') as fh:
 data = os.getenv('rmops')
 print(f"Rmops: {data}")
 print('--------')
-os.system('ifconfig')
+print("UPDATING THE FU?NCTION")
