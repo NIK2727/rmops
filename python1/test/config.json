@@ -14,8 +14,8 @@
     "spec": {
         "connectors": {
             "ssh": {
-                "sshhost": "0.0.0.0",
-                "username": "robin",
+                "sshhost": "10.9.82.43",
+                "username": "root",
                 "password": "robin123"
             }
         }

@@ -8,3 +8,7 @@ with open(f,'r') as fh:
     data = fh.read()
     data1 = json.loads(data)
     print(data1)
+data = os.getenv('rmops')
+print(f"Rmops: {data}")
+print('--------')
+os.system('ifconfig')
