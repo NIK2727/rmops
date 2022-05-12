@@ -1,0 +1,24 @@
+apiVersion: mdcap.robin.io/v1
+kind: Function
+metadata:
+  name: python2
+spec:
+  action: default
+  cmd: ''
+  cpu: 1.0
+  description: My test
+  envs: sample
+  fanout: 25
+  lang: python
+  langversion: '3'
+  memorysize: 262144000
+  mode: unit
+  name: python2
+  operator: shell
+  reserved_envs: UPDATE_PAYLOAD,ACCESS_TOKEN
+  runtime: artifactory.robinsystems.com/docker/mdcap/helm/mdcap-worker:1.8.1-288
+  source: binary/release/python2
+  timeout: 3600
+  types:
+  - VM
+  version: v1

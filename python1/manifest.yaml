@@ -9,13 +9,13 @@ spec:
   description: My test
   envs: sample,rmops
   fanout: 25
-  function_uid: c17df37a-72a0-4670-ab8d-aa680589f661
+  function_uid: e15f8d5c-5c13-450c-87c3-98dd832fdd28
   lang: python
   langversion: '3'
   memorysize: 262144000
   mode: unit
   name: python1
-  operator: ssh
+  operator: shell
   reserved_envs: UPDATE_PAYLOAD,ACCESS_TOKEN
   runtime: artifactory.robinsystems.com/docker/mdcap/helm/mdcap-worker:1.8.1-288
   source: binary/release/python1

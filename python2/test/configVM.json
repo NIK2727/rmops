@@ -1,0 +1,23 @@
+{
+    "kind": "VM",
+    "apiVersion": "mdcap.robin.io/v1",
+    "metadata": {
+        "uid": "33062bdc37-f2a9-4057-a8d5-81d0ded24e6419",
+        "name": "testvm",
+        "version": "1.0",
+        "flavor": "default",
+        "description": "Test cluster vm node",
+        "labels": {
+            "location": "sjc"
+        }
+    },
+    "spec": {
+        "connectors": {
+            "ssh": {
+                "sshhost": "0.0.0.0",
+                "username": "robin",
+                "password": "robin123"
+            }
+        }
+    }
+}
